@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.leftSide {
+  width: 70%;
+  padding: 20px;
+}
+
+.rightSide {
+  width: 30%;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.navButton {
+  background-color: #ff7f00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.banner {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.bannerButton {
+  background-color: #ff7f00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-image: url(./images/banner.png);
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.gameList,
+.newGamesList {
+  display: flex;
+  gap: 10px;
+}
+
+.gameCard,
+.newGameCard {
+  width: 100px;
+  text-align: center;
+}
+
+.gameCard img,
+.newGameCard img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.liveGameSection {
+  margin-top: 20px;
+}
+
+.liveGameList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.liveGameCard {
+  background-color: #ff7f00;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.advert {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.advert img {
+  width: 100%;
+}
+
+.advertButton {
+  background-color: #ff7f00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
